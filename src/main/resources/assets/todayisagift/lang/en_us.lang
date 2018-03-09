@@ -1,0 +1,4 @@
+tiag.happy=Happy %s
+
+commands.tiag.format0.usage=/holiday <day>/<month>
+commands.tiag.format1.usage=/holiday <month>/<day>
