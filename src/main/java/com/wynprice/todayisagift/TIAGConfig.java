@@ -29,7 +29,7 @@ public class TIAGConfig {
 	
 	@SubscribeEvent
     public static void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event) {
-        if(event.getConfigID().equals(TodayIsAGift.MODID)) {
+        if(TodayIsAGift.MODID.equals(event.getConfigID())) {
             ConfigManager.sync(TodayIsAGift.MODID, Config.Type.INSTANCE);
         }
     }
